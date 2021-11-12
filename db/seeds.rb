@@ -19,7 +19,13 @@ Coin.create!(
 )
 
 Coin.create!(
-  description: "Dash"
-  acronym: "DASH"
+  description: "Dash",
+  acronym: "DASH",
   url_image: "https://s2.coinmarketcap.com/static/img/coins/200x200/131.png"
+)
+
+Coin.create!(
+  description: "Monero",
+  acronym: "XMR",
+  url_image: "https://s2.coinmarketcap.com/static/img/coins/200x200/328.png"
 )
