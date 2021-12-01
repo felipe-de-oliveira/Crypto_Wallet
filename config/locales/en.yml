@@ -1,7 +1,9 @@
 en:
-  actual_locale: "English (international)"
+  curret_locale: "English (international)"
+  welcome: "Welcome"
+  text: "This is Crypto Wallet, an app for you to register and track your cryptocurrencies."
+  selection: "To get started, select one of the options below."
   hello: "Hello world"
-
   link:
     edit: "Edit"
     show: "Show"
