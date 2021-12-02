@@ -4,7 +4,10 @@ en:
   text: "This is Crypto Wallet, an app for you to register and track your cryptocurrencies."
   selection: "To get started, select one of the options below."
   hello: "Hello world"
+  msg: "Are you sure?"
   link:
     edit: "Edit"
     show: "Show"
     delete: "Delete"
+    new: "New Coin"
+    new_mining: "New Mining Type"

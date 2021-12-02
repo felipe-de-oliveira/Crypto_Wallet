@@ -3,7 +3,10 @@ pt-BR:
   welcome: "Seja bem-vindo"
   text: "Esse é o Crypto Wallet, um app para você cadastrar e acompanhar suas criptomoedas."
   selection: Para começar, selecione umas das opções abaixo
+  msg: "Tem certeza ?"
   link:
     edit: "Editar"
     show: "Mostrar"
     delete: "Deletar"
+    new: "Nova Moeda"
+    new_mining: "Novo Tipo de Mineração"
