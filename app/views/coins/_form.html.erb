@@ -12,18 +12,18 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :description %>
+    <%= form.label t('description') %>
     <%= form.text_field :description %>
   </div>
 
   <div class="field">
-    <%= form.label :acronym %>
+    <%= form.label t('acronym') %>
     <%= form.text_field :acronym %>
   </div>
 
   <div class="field">
     <%= form.label :url_image %>
-    <%= form.text_field :url_image %>
+    <%= form.text_field t('url_image') %>
     <%#= image_tag coin url_image, size:"25x25" %>
   </div>
 

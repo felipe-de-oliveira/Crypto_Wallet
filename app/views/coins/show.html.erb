@@ -1,19 +1,19 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Descrição:</strong>
+  <strong><%=t('description')%>:</strong>
   <%= @coin.description %>
 </p>
 
 <p>
-  <strong>Sigla:</strong>
+  <strong><%=t('acronym')%>:</strong>
   <%= @coin.acronym %>
 </p>
 
 <p>
-  <strong>Url da Imagem:</strong>
+  <strong><%=t('url_image')%>:</strong>
   <%= image_tag(@coin.url_image, size:"25x25")%>
 </p>
 
-<%= link_to 'Edit', edit_coin_path(@coin) %> |
-<%= link_to 'Back', coins_path %>
+<%= link_to t('show'), edit_coin_path(@coin) %> |
+<%= link_to t('back'), coins_path %>
